@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_drawable"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4mm"
+            android:layout_marginTop="10mm"
+            android:text="Marli Correia"
+            android:textColor="@color/white"
+            android:textSize="75px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="1in"
+            android:layout_height="20mm"
+            android:layout_marginTop="-12mm"
+            android:layout_marginLeft="33mm"
+            android:src="@drawable/profile"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5mm"
+                android:layout_marginTop="5mm"
+                android:text="About Me"
+                android:textColor="@color/white"
+                android:textSize="55px"/>
+
+            <View
+                android:layout_width="340dp"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="3mm"
+                android:layout_marginLeft="5mm"/>
+
+            <!--    <View-->
+            <!--        android:layout_width="360dp"-->
+            <!--        android:layout_height="1in"-->
+            <!--        android:radius="25px"-->
+            <!--        android:alpha="0.5"-->
+            <!--        android:background="@drawable/roundstyle"-->
+            <!--        android:backgroundTint="#FFFFFF"-->
+            <!--        android:layout_marginTop="35mm"-->
+            <!--        android:layout_marginLeft="23dp"/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5mm"
+                android:layout_marginRight="5mm"
+                android:layout_marginTop="4mm"
+                android:text="Hello, just to tell you a little about myself. I grew op on a farm in Rustenburg and moved to pretoria to study at Open Window to learn design and development."
+                android:textColor="@color/white"
+                android:textSize="45px"
+                android:layout_marginBottom="10mm"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5mm"
+                android:layout_marginTop="-4mm"
+                android:layout_marginBottom="5mm"
+                android:text="What I Like"
+                android:textColor="@color/white"
+                android:textSize="55px"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="155dp"
+                    android:layout_height="0.8in"
+                    android:radius="25px"
+                    android:alpha="0.5"
+                    android:layout_marginLeft="5mm"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#FFFFFF"/>
+
+                <ImageView
+                    android:layout_width="20mm"
+                    android:layout_height="20mm"
+                    android:layout_marginLeft="8mm"
+                    android:layout_marginTop="0mm"
+                    android:src="@drawable/iconcolor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14mm"
+                    android:layout_marginTop="16mm"
+                    android:layout_marginBottom="5mm"
+                    android:text="Design"
+                    android:textColor="@color/white"
+                    android:textSize="35px" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="155dp"
+                    android:layout_height="0.8in"
+                    android:layout_marginLeft="5mm"
+                    android:alpha="0.5"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#FFFFFF"
+                    android:radius="25px" />
+
+                <ImageView
+                    android:layout_width="18mm"
+                    android:layout_height="18mm"
+                    android:layout_marginLeft="9mm"
+                    android:layout_marginTop="0mm"
+                    android:src="@drawable/codingicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12mm"
+                    android:layout_marginTop="16mm"
+                    android:layout_marginBottom="5mm"
+                    android:text="Devlopment"
+                    android:textColor="@color/white"
+                    android:textSize="35px" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="155dp"
+                    android:layout_height="0.8in"
+                    android:radius="25px"
+                    android:alpha="0.5"
+                    android:layout_marginLeft="5mm"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#FFFFFF"/>
+
+                <ImageView
+                    android:layout_width="25mm"
+                    android:layout_height="25mm"
+                    android:layout_marginLeft="5mm"
+                    android:layout_marginTop="-4mm"
+                    android:src="@drawable/musicnotes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14mm"
+                    android:layout_marginTop="15mm"
+                    android:layout_marginBottom="5mm"
+                    android:text="Music"
+                    android:textColor="@color/white"
+                    android:textSize="35px" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="155dp"
+                    android:layout_height="0.8in"
+                    android:layout_marginLeft="5mm"
+                    android:alpha="0.5"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#FFFFFF"
+                    android:radius="25px" />
+
+                <ImageView
+                    android:layout_width="18mm"
+                    android:layout_height="18mm"
+                    android:layout_marginLeft="9mm"
+                    android:layout_marginTop="0mm"
+                    android:src="@drawable/animalicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13mm"
+                    android:layout_marginTop="15mm"
+                    android:layout_marginBottom="5mm"
+                    android:text="Animals"
+                    android:textColor="@color/white"
+                    android:textSize="35px" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="155dp"
+                    android:layout_height="0.8in"
+                    android:layout_marginLeft="5mm"
+                    android:alpha="0.5"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#FFFFFF"
+                    android:radius="25px" />
+
+                <ImageView
+                    android:layout_width="18mm"
+                    android:layout_height="17mm"
+                    android:layout_marginLeft="9mm"
+                    android:src="@drawable/techicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11mm"
+                    android:layout_marginTop="16mm"
+                    android:layout_marginBottom="5mm"
+                    android:text="Technology"
+                    android:textColor="@color/white"
+                    android:textSize="35px" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="155dp"
+                    android:layout_height="0.8in"
+                    android:layout_marginLeft="5mm"
+                    android:alpha="0.5"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="#FFFFFF"
+                    android:radius="25px" />
+
+                <ImageView
+                    android:layout_width="22mm"
+                    android:layout_height="22mm"
+                    android:layout_marginLeft="7mm"
+                    android:layout_marginTop="-2mm"
+                    android:src="@drawable/seriesicon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14mm"
+                    android:layout_marginTop="16mm"
+                    android:layout_marginBottom="5mm"
+                    android:text="Series"
+                    android:textColor="@color/white"
+                    android:textSize="35px" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="130dp"
+            android:id="@+id/Playbutton"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20mm"
+            android:layout_marginBottom="4mm"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/whiteroundstylebutton"
+            android:text="Let's Play"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
